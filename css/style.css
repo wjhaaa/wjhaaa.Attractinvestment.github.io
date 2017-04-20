@@ -1,0 +1,357 @@
+/* CSS Document */
+ 
+body, button, select, textarea, input, label, option, fieldset, legend{font-family: 微软雅黑E\8F6F\96C5\9ED1,Tahoma,Verdana;font-size: 12px;line-height: 18px;color: #444;}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, legend, input, textarea, button, p, blockquote, th, td{margin: 0;padding: 0;}
+textarea{resize: none}
+.clear{height:1px;overflow:hidden;clear:both;}
+a,img{border:0;}
+a{color: #666;text-decoration: none;}
+li{list-style-type:none;}
+.fl{float:left;}
+.fr{float:right;}
+.nf{clear:both;}
+.red{color:red;font-weight:bold;}
+.green{color:#00b500;font-weight:bold;}
+.ds{display:block;}
+.hid{overflow:hidden;}
+.clearfix{*zoom:1}
+.clearfix:after{display:block;visibility:hidden;clear:both;height:0;content:'.';font-size:0}
+.jianbian{background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#f4f4f4),color-stop(100%,#eee));background: -webkit-linear-gradient(top,#f4f4f4 0,#eee 100%);background: linear-gradient(to bottom,#f4f4f4 0,#eee 100%);}
+.bottomshadow{border-bottom: solid 1px #B3B3B3;-webkit-box-shadow: 0 1px 1px 0 #DFDFDF;box-shadow: 0 1px 1px 0 #DFDFDF;}
+body{
+	width: 100%;
+	background: #0a0300;
+	height: auto;
+}
+body a {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+.container{
+	width: 750px;
+	height: 2897px;
+	background: url(../images/bg.jpg) no-repeat center top ;
+	background-size:100% 2897px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.bg_img{
+	width: 100%;
+	height: 744px;
+	position: relative;
+}
+.jinbi,.mb_rz,.mb_title{
+	position: absolute;
+}
+.jinbi img,.mb_rz img,.mb_title img{
+	width: 100%;
+	
+}
+.jinbi{
+	top: 0;
+	left: 0;
+	z-index: 20;
+}
+.mb_rz{
+	top: 0;
+	left: 0;
+	z-index:5;
+}
+.mb_title{
+	top: 190px;
+	left: 93px;
+	z-index: 10;
+}
+
+
+
+
+
+@media only screen and (min-width: 100px) and (max-width: 320px) {
+	.container{
+		width: 100%;
+		height: 100%;
+	    background: url(../images/bg.jpg) no-repeat center top ;
+	    background-size:100%;	
+	    margin: 0;
+	}
+	.bg_img{
+		height: 400px;
+	}
+	
+	.mb_title{
+		width: 90%;
+		left: 8%;
+		top: 100px;
+	}
+    .mb_rz{
+	top:39px;
+	left: 0;
+}
+    .MB_artice{
+     	width: 300px !important;
+    }
+    .who,.select,.add{
+    	max-width: 300px !important;
+    }
+    
+    
+    .invite{
+    	width: 300px !important;
+    }
+
+     .invite_title img{
+    max-width: 300px !important;
+    max-height: 49;
+     }
+     
+    .invite_img img{
+	max-width: 260px !important;
+    max-height: 260px !important;
+    margin-top: 48px;
+}    
+    
+	
+}
+
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+	.container{
+		width: 100%;
+		height: 100%;
+	    background: url(../images/bg.jpg) no-repeat center top ;
+	    background-size:100%;	
+	    margin: 0;
+	}
+	
+	.bg_img{
+		height: 500px;
+	}
+	
+	.mb_title{
+		width: 90%;
+		left: 8%;
+		top: 100px;
+	}
+    .mb_rz{
+	top:39px;
+	left: 0;
+}
+
+     .MB_artice{
+     	width: 320px !important;
+    }
+    .who,.select,.add{
+    	max-width: 320px !important;
+    }
+    
+    
+    .invite{
+    	width: 320px !important;
+    }
+
+     .invite_title img{
+    max-width: 320px !important;
+    max-height: 49;
+     }
+     
+    .invite_img img{
+	max-width: 280px !important;
+    max-height: 280px !important;
+    margin-top: 48px;
+}    
+    
+}
+@media only screen and (min-width: 374px) and (max-width: 414px) {
+	.container{
+		width: 100%;
+		height: 100%;
+	    background: url(../images/bg.jpg) no-repeat center top ;
+	    background-size:100%;	
+	    margin: 0;
+	}
+	
+	.bg_img{
+		height: 500px;
+	}
+	
+	.mb_title{
+		width: 90%;
+		left: 8%;
+		top: 100px;
+	}
+    .mb_rz{
+	top:39px;
+	left: 0;
+}
+
+     .MB_artice{
+     	width: 340px !important;
+    }
+    .who,.select,.add{
+    	max-width: 340px !important;
+    }
+    
+    
+    .invite{
+    	width: 340px !important;
+    }
+
+     .invite_title img{
+    max-width: 340px !important;
+    max-height: 49;
+     }
+     
+    .invite_img img{
+	max-width: 280px !important;
+    max-height: 280px !important;
+    margin-top: 48px;
+}    
+}
+
+@media only screen and (min-width: 413px) and (max-width: 480px) {
+	.container{
+		width: 100%;
+		height: 100%;
+	    background: url(../images/bg.jpg) no-repeat center top ;
+	    background-size:100%;	
+	    margin: 0;
+	}
+	
+	.bg_img{
+		height: 500px;
+	}
+	
+	.mb_title{
+		width: 90%;
+		left: 8%;
+		top: 100px;
+	}
+    .mb_rz{
+	top:39px;
+	left: 0;
+}
+
+     .MB_artice{
+     	width: 400px !important;
+    }
+    .who,.select,.add{
+    	max-width: 400px !important;
+    }
+    
+    
+    .invite{
+    	width: 400px !important;
+    }
+
+     .invite_title img{
+    max-width:400px !important;
+    max-height: 49;
+     }
+     
+    .invite_img img{
+	max-width: 280px !important;
+    max-height: 280px !important;
+    margin-top: 48px;
+}    
+}
+
+@media only screen and (min-width: 479px) and (max-width: 770px) {
+	.container{
+		width: 100%;
+		height: 100%;
+	    background: url(../images/bg.jpg) no-repeat center top ;
+	    background-size:100%;	
+	    margin: 0;
+	}
+	
+	.bg_img{
+		height: 650px;
+	}
+	
+	.mb_title{
+		width: 90%;
+		left: 8%;
+		top: 100px;
+	}
+    .mb_rz{
+	top:39px;
+	left: 0;
+}
+
+     .MB_artice{
+     	width: 400px !important;
+    }
+    .who,.select,.add{
+    	max-width: 400px !important;
+    }
+    
+    
+    .invite{
+    	width: 400px !important;
+    }
+
+     .invite_title img{
+    max-width:400px !important;
+    max-height: 49;
+     }
+     
+    .invite_img img{
+	max-width: 280px !important;
+    max-height: 280px !important;
+    margin-top: 48px;
+}    
+	
+}
+
+
+
+.MB_artice{
+	width: 622px;
+	height: auto;
+	margin: 0 auto;
+}
+.select,.add{
+	margin-top: 89px;
+}
+.who{
+	max-width: 622px;
+	max-height: 340px;
+}
+.select{
+	max-width: 622px;
+	max-height: 682px;
+}
+.add{
+	max-width: 622px;
+	max-height:286px;
+}
+.who img,.select img,.add img{
+	width: 100%;
+}
+
+
+.invite{
+	width: 400px;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+.invite_title,.invite_img{
+	margin: 0 auto;
+    text-align: center;
+}
+.invite_title img{
+    max-width: 399px;
+    max-height: 49;
+}
+
+.invite_img img{
+	max-width: 399px;
+    max-height: 399px;
+    margin-top: 48px;
+}
+
